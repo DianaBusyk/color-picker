@@ -14,11 +14,7 @@
     "lint": "eslint --ext .js,.vue src",
     "release": "npm run lint && webpack --progress --hide-modules --config  ./build/webpack.release.js && webpack --progress --hide-modules --config  ./build/webpack.release.min.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/xiaokaike/vue-color"
-  },
-  "author": "xiaokai <kexiaokai@gmail.com>",
+  
   "dependencies": {
     "clamp": "^1.0.1",
     "lodash.throttle": "^4.0.0",
